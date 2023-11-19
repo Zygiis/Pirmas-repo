@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Automobilio paieška</title>
+<style>
+	div{
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:100px;
+		border:1px solid gray;
+		width:20%;
+		padding:20px;
+	}
+</style>
+</head>
+<body>
+	<h2>Sveiki, tai automobilio paieškos sistema</h2>
+	<div>
+		<form action="/spring-mvc-pvz/rodyti-lentele" method="get">
+			Pradzia <input type="text" name="pradzia" /><br />
+			Pabaiga <input type="text" name="pabaiga" />
+			<input type="submit" value="Skaiciuoti" />
+		</form>
+	</div>
+</body>
+</html>
